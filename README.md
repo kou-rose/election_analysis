@@ -42,6 +42,4 @@ The purpose of this project is to perform an audit of a local congressional elec
 ## Election-Audit Summary
 The convenient thing about this script is that the bones of it are straightfoward enough to easily transfer to other elections. If someone wanted to use this code for another election, all it would take is placing the appropriate file in the `file_to_load = os.path.join("Resources", "" )` and `file_to_save = os.path.join("Analysis", "" )` parentheses.
 
-Once the desired file is in the resources folder, and most importantly ordered the same way as the original file, the code will operate the same. It will extract the appropriate amount of candidates and their votes, as well as the counties and their votes, no matter if the number of candidates or counties is greater or fewer than in the presented election.
-
-Even the code for terminal print out can remain as is, because the output is independent of the election information itself.
+Once the desired file is in the resources folder, and most importantly the contents are ordered the same way as the original file, the code will operate the same. It will extract the appropriate amount of candidates and their votes, as well as the counties and their votes, no matter if the number of candidates or counties is greater or fewer than in the presented election. Even the code for terminal print out can remain as is, because the output is independent of the election information itself. However, changing the terminal output to include a specific message or anything else would not be difficult.
